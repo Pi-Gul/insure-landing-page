@@ -17,43 +17,40 @@
 	<body>
 		<!-- NAVBAR -->
 		
-		<nav class='navbar navbar-expand-md navbar-light bg-light'>
+		<nav class='navbar navbar-expand-md navbar-light bg-white'>
 			<a class='navbar-brand' href='#'><img class='logo' src='./images/logo.svg'></a>
-			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#nav-menu'>
-				<span class='navbar-toggler-icon'></span>
+			<button class='navbar-toggler p-0' type='button' data-toggle='collapse' data-target='#nav-menu'>
+				<img class='icon-hamburger' src='./images/icon-hamburger.svg'>
 			</button>
 			<div class='navbar-collapse collapse' id='nav-menu'>
-				<ul class='navbar-nav'>
+				<ul class='navbar-nav d-flex flex-column align-items-center'>
 					<li class='nav-item'><a class='nav-link' href='#'>How we work</a></li>
 					<li class='nav-item'><a class='nav-link' href='#'>Blog</a></li>
 					<li class='nav-item'><a class='nav-link' href='#'>Account</a></li>
+					<li class='nav-item'><button class='main-button'>View plans</button></li>
 				</ul>
 			</div>
-			<button class='btn btn-light rounded-0 border-dark'>View plans</button>
 		</nav>
 		
 		<!-- NAVBAR END -->
 
 		<!-- INTRO -->
-		<class id='intro'>
-			<div class='container'>
-				<div class='row'>
-					<div class='intro-top col-12'>
-						<img class='image-intro-mobile d-md-none' src='./images/image-intro-mobile.jpg'>
-						<img class='image-intro-desktop d-none d-md-block' src='./images/image-intro-desktop.jpg'>
-					</div>
-					
-					<div class='intro-bottom col-12'>
-					
-						<h1 class='text-center'>Humanizing your insurance.</h1>
-
-						<p class='text-center'>Get your life insurance coverage easier and faster. We blend our expertise 
-						and technology to help you find the plan that’s right for you. Ensure you 
-						and your loved ones are protected.</p>
-
-						<button class='btn btn-light rounded-0 border-dark my-5'>View plans</button>
-					</div>
+		<class id='intro' class='container-fluid text-white'>
+			<div class='row'>
+			
+				<div class='intro-top col-12'>
+					<img class='image-intro mobile d-md-none img-fluid w-100' src='./images/image-intro-mobile.jpg'>
+					<img class='image-intro desktop d-none d-md-block w-100' src='./images/image-intro-desktop.jpg'>
 				</div>
+				
+				<div class='intro-bottom col-12'>				
+					<h1 class='text-center font-weight-bold display-4'>Humanizing your insurance.</h1>
+					<p class='text-center'>Get your life insurance coverage easier and faster. We blend our expertise 
+					and technology to help you find the plan that’s right for you. Ensure you 
+					and your loved ones are protected.</p>
+					<button class='main-button d-block mx-auto'>View plans</button>
+				</div>
+				
 			</div>
 		</class>
 		
@@ -61,32 +58,33 @@
 
 		<!-- ABOUT US -->
 		<section id='about-us' class='text-center'>
-			<h2>We’re different</h2>
+			<div class='short-line'></div>
+			<h2 class='font-weight-bold display-4'>We’re different</h2>
 			<div class='container'>
 				<div class='row'>
 				
-					<article class='card'>
+					<article class='card border-0'>
 						<img class='card-img-top w-25 mx-auto' src='./images/icon-snappy-process.svg'>
 						<div class='card-body'>
-							<h3 class='card-title'>Snappy Process</h3>
+							<h3 class='card-title font-weight-bold'>Snappy Process</h3>
 							<p class='card-text'>Our application process can be completed in minutes, not hours. Don’t get 
 							stuck filling in tedious forms.</p>
 						</div>
 					</article>
 				
-					<article class='card'>
+					<article class='card border-0'>
 						<img class='card-img-top w-25 mx-auto' src='./images/icon-affordable-prices.svg'>
 						<div class='card-body'>
-							<h3 class='card-title'>Affordable Prices</h3>
+							<h3 class='card-title font-weight-bold'>Affordable Prices</h3>
 							<p class='card-text'>We don’t want you worrying about high monthly costs. Our prices may be low, 
 							but we still offer the best coverage possible.</p>
 						</div>
 					</article>
 					
-					<article class='card'>
+					<article class='card border-0'>
 						<img class='card-img-top w-25 mx-auto' src='./images/icon-people-first.svg'>
 						<div class='card-body'>
-							<h3 class='card-title'>People First</h3>
+							<h3 class='card-title font-weight-bold'>People First</h3>
 							<p class='card-text'>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
 							sure you’re covered when you need it.</p>
 						</div>
@@ -99,19 +97,20 @@
 		
 		<!-- FIND OUT -->
 
-		<section id='find-out'>
+		<section id='find-out' class='text-center text-white p-5'>
 			<div class='container'>
 				<div class='row'>
 					<div class='col-12 col-md-6'>
-						<h1>Find out more about how we work</h1>
+						<h1 class='font-weight-bold'>Find out more about how we work</h1>
 					</div>
 					<div class='col-12 col-md-6'>
-						<button class='btn btn-light rounded-0 border-dark my-5'>How we work</button>
+						<button class='btn main-button d-block mx-auto mt-3'>How we work</button>
 					</div>
 				</div>
 			</div>
 		
 		</section>
+		
 		<!-- FIND OUT END -->
 		
 		
@@ -119,19 +118,20 @@
 		<footer id='footer'>
 			<div class='container'>
 				<div class='row footer-top'>
-					<div class='col-12 col-md-6 d-flex justify-content-center justify-content-md-start'>
+					<div class='col-12 col-md-6 d-flex justify-content-center justify-content-md-start my-4'>
 						<a href='#'><img class='logo' src='./images/logo.svg'></a>
 					</div>
 					<div class='col-12 col-md-6 d-flex justify-content-center justify-content-md-end'>
 						<ul class='footer-social d-flex flex-row list-unstyled'>
-							<li><a href='#'><img class='icon-social' src='#'></a></li>
-							<li><a href='#'><img class='icon-social' src='#'></a></li>
-							<li><a href='#'><img class='icon-social' src='#'></a></li>
-							<li><a href='#'><img class='icon-social' src='#'></a></li>
+							<li><a href='#'><img class='icon-social' src='./images/icon-facebook.svg'></a></li>
+							<li><a href='#'><img class='icon-social' src='./images/icon-twitter.svg'></a></li>
+							<li><a href='#'><img class='icon-social' src='./images/icon-pinterest.svg'></a></li>
+							<li><a href='#'><img class='icon-social' src='./images/icon-instagram.svg'></a></li>
 						</ul>
 					</div>
 				</div>
-				<div class='row-footer-bottom text-center'>
+				<div class='short-line'></div>
+				<div class='row footer-bottom text-center font-weight-bold'>
 					<div class='col-12 col-md-3'>
 						<h4>Our company</h4>
 						<ul class='list-unstyled'>

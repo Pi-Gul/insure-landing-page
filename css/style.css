@@ -1,5 +1,142 @@
+html {
+  --Dark-Violet: hsl(256, 26%, 20%);
+  --Grayish-Blue: hsl(216, 30%, 68%);
+  --Very-Dark-Violet: hsl(270, 9%, 17%);
+  --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+.main-button {
+  border: 1px solid white;
+  color: white;
+  background: rgba(0, 0, 0, 0%);
+  padding: 10px 30px;
+  border-radius: 0px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 
+/* NAVBAR */
+.navbar-toggler {
+  margin-top: 5px;
+}
+.navbar-collapse {
+  
+}
+#nav-menu {
+  
+}
+#nav-menu .navbar-nav {
+  background-color: var(--Very-Dark-Violet);
+  background-image: url('../images/bg-pattern-mobile-nav.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 30px;
+  padding-bottom: 300px;
+  margin-top: 20px;
+}
+#nav-menu .nav-item {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+}
+#nav-menu .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#nav-menu .main-button {
+  width: 90%;
+}
+
+/* INTRO */
+#intro .intro-bottom {
+  background-color: var(--Dark-Violet);
+  padding: 100px 30px;
+  background-image: url('../images/bg-pattern-intro-left-mobile.svg'), url('../images/bg-pattern-intro-right-mobile.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+#intro h1 {
+  font-size: 3em;
+}
+#intro .main-button {
+  margin-top: 40px;
+}
+
+/* ABOUT US */
+#about-us {
+  margin-bottom: 100px;
+}
+#about-us p {
+  font-weight: bold;
+  color: var(--Grayish-Blue);
+}
+#about-us .short-line {
+  width: 40%;
+  border-top: 2px solid hsl(0 0% 80%);
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+#about-us h2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--Very-Dark-Violet);
+}
+#about-us .card {
+  margin-top: 40px;
+}
+#about-us h3 {
+  color: var(--Very-Dark-Violet);
+}
+
+/* FIND OUT*/
+#find-out {
+  background-color: var(--Dark-Violet);
+  background-image: url('../images/bg-pattern-how-we-work-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 200px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  background-color: var(--Very-Light-Gray);
+  background-image: url('../images/bg-pattern-footer-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+footer .footer-top .icon-social {
+  padding: 0px 10px;
+}
+footer .short-line {
+  width: 90%;
+  margin: 0px auto;
+  border-bottom: 2px solid hsl(0 0% 90%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .footer-bottom h4 {
+  margin: 30px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--Grayish-Blue);
+}
+footer .footer-bottom li {
+  padding: 8px 0px;
+}
+footer .footer-bottom a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--Very-Dark-Violet);
+}
+
+/* ATTRIBUTION */
 .attribution { 
   font-size: 11px; text-align: center; 
  }
