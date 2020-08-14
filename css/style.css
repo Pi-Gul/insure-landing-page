@@ -192,6 +192,15 @@ footer .footer-bottom a:hover {
     background-repeat: no-repeat;
     background-position: center left, center right;
   }
+  #intro .short-line {
+  width: 40%;
+  border-top: 2px solid hsl(0 0% 80%);
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+  #intro h1 {
+    font-size: 3.5em;
+  }
   #intro .intro-container {
     padding-left: 15px;
     padding-right: 15px;
