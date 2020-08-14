@@ -20,10 +20,10 @@
 		<nav class='navbar navbar-expand-md navbar-light bg-white'>
 			<a class='navbar-brand' href='#'><img class='logo' src='./images/logo.svg'></a>
 			<button class='navbar-toggler p-0' type='button' data-toggle='collapse' data-target='#nav-menu'>
-				<img class='icon-hamburger' src='./images/icon-hamburger.svg'>
+				<span class='navbar-toggler-icon'></span>
 			</button>
 			<div class='navbar-collapse collapse' id='nav-menu'>
-				<ul class='navbar-nav d-flex flex-column align-items-center'>
+				<ul class='navbar-nav d-flex flex-column flex-md-row align-items-center justify-content-end'>
 					<li class='nav-item'><a class='nav-link' href='#'>How we work</a></li>
 					<li class='nav-item'><a class='nav-link' href='#'>Blog</a></li>
 					<li class='nav-item'><a class='nav-link' href='#'>Account</a></li>
@@ -35,55 +35,56 @@
 		<!-- NAVBAR END -->
 
 		<!-- INTRO -->
-		<class id='intro' class='container-fluid text-white'>
-			<div class='row'>
-			
-				<div class='intro-top col-12'>
-					<img class='image-intro mobile d-md-none img-fluid w-100' src='./images/image-intro-mobile.jpg'>
-					<img class='image-intro desktop d-none d-md-block w-100' src='./images/image-intro-desktop.jpg'>
-				</div>
+		<section id='intro'>
+			<div class='container-fluid p-0 container-md text-white'>
+				<div class='row'>
 				
-				<div class='intro-bottom col-12'>				
-					<h1 class='text-center font-weight-bold display-4'>Humanizing your insurance.</h1>
-					<p class='text-center'>Get your life insurance coverage easier and faster. We blend our expertise 
-					and technology to help you find the plan that’s right for you. Ensure you 
-					and your loved ones are protected.</p>
-					<button class='main-button d-block mx-auto'>View plans</button>
+					<div class='intro-top col-12 col-md-6 order-md-2'>
+						<img class='image-intro mobile d-md-none img-fluid w-100' src='./images/image-intro-mobile.jpg'>
+						<img class='image-intro desktop d-none d-md-block w-100 img-fluid' src='./images/image-intro-desktop.jpg'>
+					</div>
+					
+					<div class='intro-bottom col-12 col-md-6 order-md-1'>				
+						<h1 class='text-center font-weight-bold display-4'>Humanizing your insurance.</h1>
+						<p class='text-center'>Get your life insurance coverage easier and faster. We blend our expertise 
+						and technology to help you find the plan that’s right for you. Ensure you 
+						and your loved ones are protected.</p>
+						<button class='main-button d-block mx-auto'>View plans</button>
+					</div>
+					
 				</div>
-				
 			</div>
-		</class>
+		</section>
 		
 		<!-- INTRO END -->
 
 		<!-- ABOUT US -->
-		<section id='about-us' class='text-center'>
+		<section id='about-us' class='text-center text-md-left'>
 			<div class='short-line'></div>
-			<h2 class='font-weight-bold display-4'>We’re different</h2>
 			<div class='container'>
+				<h2 class='font-weight-bold display-4'>We’re different</h2>
 				<div class='row'>
-				
-					<article class='card border-0'>
-						<img class='card-img-top w-25 mx-auto' src='./images/icon-snappy-process.svg'>
-						<div class='card-body'>
+					<article class='card border-0 col-md-4'>
+						<img class='card-img-top w-25 mx-auto m-md-0' src='./images/icon-snappy-process.svg'>
+						<div class='card-body px-md-0'>
 							<h3 class='card-title font-weight-bold'>Snappy Process</h3>
 							<p class='card-text'>Our application process can be completed in minutes, not hours. Don’t get 
 							stuck filling in tedious forms.</p>
 						</div>
 					</article>
 				
-					<article class='card border-0'>
-						<img class='card-img-top w-25 mx-auto' src='./images/icon-affordable-prices.svg'>
-						<div class='card-body'>
+					<article class='card border-0 col-md-4'>
+						<img class='card-img-top w-25 mx-auto m-md-0' src='./images/icon-affordable-prices.svg'>
+						<div class='card-body px-md-0'>
 							<h3 class='card-title font-weight-bold'>Affordable Prices</h3>
 							<p class='card-text'>We don’t want you worrying about high monthly costs. Our prices may be low, 
 							but we still offer the best coverage possible.</p>
 						</div>
 					</article>
 					
-					<article class='card border-0'>
-						<img class='card-img-top w-25 mx-auto' src='./images/icon-people-first.svg'>
-						<div class='card-body'>
+					<article class='card border-0 col-md-4'>
+						<img class='card-img-top w-25 mx-auto m-md-0' src='./images/icon-people-first.svg'>
+						<div class='card-body px-md-0'>
 							<h3 class='card-title font-weight-bold'>People First</h3>
 							<p class='card-text'>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
 							sure you’re covered when you need it.</p>
@@ -131,7 +132,7 @@
 					</div>
 				</div>
 				<div class='short-line'></div>
-				<div class='row footer-bottom text-center font-weight-bold'>
+				<div class='row footer-bottom text-center text-md-left font-weight-bold'>
 					<div class='col-12 col-md-3'>
 						<h4>Our company</h4>
 						<ul class='list-unstyled'>
