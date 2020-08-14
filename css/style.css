@@ -28,9 +28,6 @@ p {
 
 
 /* NAVBAR */
-.navbar-toggler {
-  margin-top: 5px;
-}
 #nav-menu .navbar-nav {
   background-color: var(--Very-Dark-Violet);
   background-image: url('../images/bg-pattern-mobile-nav.svg');
@@ -63,12 +60,16 @@ p {
 #intro {
   background-color: var(--Dark-Violet);
 }
+#intro .intro-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 #intro .intro-bottom {
-  padding: 100px 30px;
-  margin-bottom: 100px;
+  padding: 100px 30px 100px 30px;
   background-image: url('../images/bg-pattern-intro-left-mobile.svg'), url('../images/bg-pattern-intro-right-mobile.svg');
   background-position: left top, right bottom;
   background-repeat: no-repeat;
+  background-origin: border-box;
 }
 #intro h1 {
   font-size: 3em;
@@ -90,6 +91,7 @@ p {
   border-top: 2px solid hsl(0 0% 80%);
   margin: 0px auto;
   padding-bottom: 20px;
+  margin-top: 100px;
 }
 #about-us h2 {
   font-size: 2.5em;
@@ -190,6 +192,10 @@ footer .footer-bottom a:hover {
     background-repeat: no-repeat;
     background-position: center left, center right;
   }
+  #intro .intro-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   #intro .intro-top .image-intro.desktop {
     position: relative;
     top: 70px;
@@ -198,6 +204,10 @@ footer .footer-bottom a:hover {
     background-image: none;
     padding: 0px 0px;
     margin-bottom: 0px;
+  }
+  #about-us .short-line {
+    width: 20%;
+    margin: 0px 0px;
   }
   #find-out {
     background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
