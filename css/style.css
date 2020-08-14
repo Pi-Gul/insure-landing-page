@@ -19,6 +19,12 @@ html {
   color: var(--Dark-Violet);
   background-color: white;
 }
+h1, h2, h3, h4, h5 {
+  font-family: 'DM Serif Display', serif;
+}
+p {
+  font-family: 'Karla', sans-serif;
+}
 
 
 /* NAVBAR */

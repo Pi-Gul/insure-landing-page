@@ -1,7 +1,7 @@
 let iconsArray = document.querySelectorAll('.icon-social');
 let h1 = document.querySelector('h1');
 
-h1.innerHTML = 'IT WORKS'
+//h1.innerHTML = 'IT WORKS'
 
 const facebookLight = './images/icon-facebook.svg';
 const facebookDark = './images/icon-facebook-dark.svg';
